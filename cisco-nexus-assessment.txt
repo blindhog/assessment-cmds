@@ -1,0 +1,58 @@
+!-- General
+term len 0
+show version
+show run
+
+
+
+
+!-- Layer2
+show interface status
+show interface trunk
+show interface
+show int counters errors 
+show cdp neighbor
+show cdp neighbor detail
+show spanning-tree summary 
+show spanning-tree
+show port-channel summary
+show port-channel traffic
+show mac address-table 
+show vlan
+
+
+!-- VPC 
+show vpc brief
+show vpc
+show vpc orphan-ports
+show vpc peer-keepalive
+show vpc role
+show vpc statistics peer-link
+show vpc statistics peer-keepalive
+show vpc statistics vpc 554
+
+
+!-- Fex
+show fex
+show fex detail
+
+
+!-- Layer 3
+show ip int brief
+show hsrp brief 
+show hsrp
+show ip route
+show ip arp
+
+show ip eigrp neighbor
+show ip eigrp topology
+
+show ip ospf neighbor
+show ip ospf database
+
+show ip bgp summary
+show ip bgp
+
+
+!-- show tech
+show tech
