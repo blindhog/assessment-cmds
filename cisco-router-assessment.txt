@@ -1,0 +1,41 @@
+!-- General
+term len 0
+show version
+show run
+
+
+
+
+!-- Layer2
+show interface summary
+show interface
+show cdp neighbor
+show cdp neighbor detail
+show etherchannel summary
+show mac-address-table 
+show vlans
+show vlan-switch
+
+
+
+
+!-- Layer 3
+show ip interface brief
+show standby brief 
+show standby
+show ip route
+show ip cef
+show arp
+show ip protocols
+
+show ip eigrp neighbor
+show ip eigrp topology
+
+show ip ospf neighbor
+show ip ospf database
+
+show ip bgp summary
+show ip bgp
+
+!-- Show tech
+show tech
