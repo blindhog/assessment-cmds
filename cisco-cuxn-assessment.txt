@@ -1,0 +1,13 @@
+show status 
+utils core active list
+show hardware
+show version active
+show version inactive
+show status
+show network eth0 detail
+show cuc cluster status 
+utils dbreplication runtimestate
+utils service list 
+utils diagnose test
+show cuc sysinfo
+show perf query class Memory
