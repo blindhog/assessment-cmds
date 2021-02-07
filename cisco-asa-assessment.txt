@@ -1,0 +1,46 @@
+!-- General
+term page 0
+show version
+more system:running-config
+show access-list
+show xlate
+show conn
+
+
+!-- Layer3
+show ip address
+show arp 
+show interfaces
+show failover
+show route
+
+show eigrp neighbor
+show eigrp topology
+
+show ospf neighbor
+show ospf database
+show ospf interface
+
+
+
+!-- VPN
+show vpn-sessiondb summary
+show crypto ipsec sa
+show crypto isakmp sa
+show crypto ikev1 sa detail
+show crypto ikev2 sa detail
+
+!-- Certificates
+show crypto ca trustpoints
+show crypto ca certificates
+
+!-- Show Tech
+show tech
+
+
+
+!-- Export Trustpoints
+crypto ca export <trust-point-name> pkcs12 <passphrase>
+
+!-- Import Trustpoints
+crypto ca import <trust-point-name> pkcs12 <passphrase>
