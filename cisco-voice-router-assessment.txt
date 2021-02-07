@@ -1,0 +1,101 @@
+!-- General
+term len 0
+show version
+show run
+
+
+
+
+!-- General Voice
+show voice port summary
+show dial-peer voice summary
+show dial-peer voice busy-trigger-counter
+show voice dsp
+show voice call summary
+show call active voice
+show call active voice compact
+show call active voice brief
+show call active voice stats
+show call history voice compact
+show call history voice brief
+show call history voice stats
+show voip rtp connections	
+show rtpspi statistics
+
+
+
+!--PRI
+show isdn status
+
+
+
+!-- MGCP
+show run | s mgcp|ccm-manager
+show mgcp
+show mgcp endpoints
+show ccm-manager
+
+
+!-- SIP
+show sip-ua calls
+show sip-ua calls brief
+show sip-ua calls summary
+show sip-ua connections udp detail
+
+
+
+!-- SCCP
+show sccp connections
+
+
+
+!-- DSP Resources:
+show dspfarm dsp all	 
+show dspfarm dsp active	 
+show dspfarm profile	 
+show dspfarm all
+show voice dsp	
+show platform led
+show voice dsp capabilities slot 0
+
+
+!-- Call Manager Express
+show telephony-service
+show ephone
+show ephone summary
+
+
+
+!-- Layer2
+show interface summary
+show interface
+show cdp neighbor
+show cdp neighbor detail
+show etherchannel summary
+show mac-address-table 
+show vlans
+show vlan-switch
+
+
+
+!-- Layer 3
+show ip interface brief
+show standby brief 
+show standby
+show ip route
+show ip cef
+show arp
+show ip protocols
+
+show ip eigrp neighbor
+show ip eigrp topology
+
+show ip ospf neighbor
+show ip ospf database
+
+show ip bgp summary
+show ip bgp
+
+
+!-- Final show tech
+show tech
