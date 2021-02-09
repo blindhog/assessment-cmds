@@ -5,6 +5,7 @@ more system:running-config
 show access-list
 show xlate
 show conn
+dir
 
 
 !-- Layer3
