@@ -1,0 +1,54 @@
+!-- General
+term len 0
+show version
+show run
+dir
+
+
+
+!-- Layer2
+show interfaces status
+show interfaces trunk
+show interfaces summary
+show interfaces
+show int counters errors 
+show cdp neighbor
+show cdp neighbor detail
+show spanning-tree summary 
+show spanning-tree
+show etherchannel summary
+show mac address-table 
+show vlan
+show vtp status
+
+!-- Stacking 
+show switch
+show switch detail
+show switch stack-ring speed
+show stackwise-virtual
+show stackwise-virtual link
+show stackwise-virtual neighbors
+show stackwise-virtual dual-active-detection
+
+
+!-- Layer 3
+show ip int brief
+show standby brief 
+show standby
+show ip route
+show ip cef
+show arp
+show ip protocols
+
+show ip eigrp neighbor
+show ip eigrp topology
+
+show ip ospf neighbor
+show ip ospf database
+
+show ip bgp summary
+show ip bgp
+
+
+!-- show tech
+show tech
