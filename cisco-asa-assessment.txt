@@ -2,6 +2,7 @@
 term page 0
 show version
 more system:running-config
+show module
 show access-list
 show xlate
 show conn
