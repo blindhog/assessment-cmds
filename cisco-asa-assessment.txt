@@ -27,6 +27,8 @@ show ospf interface
 
 !-- VPN
 show vpn-sessiondb summary
+show vpn-sessiondb 
+show vpn-sessiondb anyconnect
 show crypto ipsec sa
 show crypto isakmp sa
 show crypto ikev1 sa detail
