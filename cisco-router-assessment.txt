@@ -4,8 +4,6 @@ show version
 show run
 dir
 
-
-
 !-- Layer2
 show interface summary
 show interface
@@ -15,9 +13,6 @@ show etherchannel summary
 show mac-address-table 
 show vlans
 show vlan-switch
-
-
-
 
 !-- Layer 3
 show ip interface brief
@@ -36,6 +31,10 @@ show ip ospf database
 
 show ip bgp summary
 show ip bgp
+
+!-- Security
+show login failures
+show logging
 
 !-- Show tech
 show tech
