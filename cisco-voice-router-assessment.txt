@@ -96,6 +96,10 @@ show ip ospf database
 show ip bgp summary
 show ip bgp
 
+!-- Security
+show login failures
+show logging
+
 
 !-- Final show tech
 show tech
