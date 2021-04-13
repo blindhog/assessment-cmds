@@ -36,5 +36,8 @@ show ip bgp
 show login failures
 show logging
 
+!-- Licensing
+show license
+
 !-- Show tech
 show tech
